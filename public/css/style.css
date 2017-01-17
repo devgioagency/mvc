@@ -1,0 +1,31 @@
+div#container div.sending input {
+    margin-top:20px;
+    margin-left:10px;
+}
+
+div#container div.date input {
+    margin-top:20px;
+    margin-left:10px;
+}
+
+div#container div.mailing input {
+    margin-top:20px;
+    margin-left:10px;
+}
+
+
+div.package, div.letter {
+
+    display:none;
+}
+
+div#container div.letter input, div#container div.package input {
+    margin-top:20px;
+    margin-left: 10px;
+}
+
+
+div#container div input#firstname,div#container div #submitBtn, div#container div input#lastname {
+    margin-top:10px;
+    width:200px;
+}
