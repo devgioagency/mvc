@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mailing Projekt</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="public/js/app.js"></script>
+</head>
+<body>
+<h2>Mailing Project</h2>
+<form class="formmailing">
+<div id="container">
+    <div>
+        <lable class="firstname">Vorname:</lable>
+        <input type="text" name="firstname" id="firstname">
+    </div>
+    <div>
+        <lable class="lastname">Nachname:</lable>
+        <input type="text" name="firstname" id="lastname">
+    </div>
+
+    <div class="mailing">
+        <input type="radio" name="mailingtype" value="letter"> Brief
+        <input type="radio" name="mailingtype" value="package"> Paket
+    </div>
+
+    <div class="letter">
+        <div>
+            <lable class="weight">Gewicht in gr:</lable>
+            <input type="text" name="weight" id="letterweight">
+        </div>
+    </div>
+
+    <div class="package">
+        <div>
+            <lable class="weight">Gewicht in gr:</lable>
+            <input type="text" name="weight" id="packageweight">
+        </div>
+        <div>
+            <lable class="height">Höhe in cm:</lable>
+            <input type="text" name="height" id="height">
+        </div>
+        <div>
+            <lable class="width">Breite in cm:</lable>
+            <input type="text" name="width" id="width">
+        </div>
+        <div>
+            <lable class="length">Länge in cm:</lable>
+            <input type="text" name="length" id="length">
+        </div>
+    </div>
+    <div class="sending">
+        <input type="radio" name="type" value="national"> National
+        <input type="radio" name="type" value="international"> International
+    </div>
+
+    <div class="date">
+        <lable class="length">Eingangdatum:</lable>
+        <input type="text" id="entrydate" name="entrydate" readonly>
+    </div>
+    <div class="submit">
+        <input type="submit" id="submitBtn" name="submit" value="Abschicken">
+    </div>
+</div>
+</form>
+</body>
+</html>
